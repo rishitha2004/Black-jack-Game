@@ -1,0 +1,33 @@
+body{
+    background-color: seagreen;
+}
+
+h1{
+    text-align: center;
+    color: coral;
+    font-size: 50px;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#start,#newCard{
+    background-color: yellow;
+    width:200px;
+    height: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+}
