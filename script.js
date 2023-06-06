@@ -25,7 +25,8 @@ function renderCards(){
         message="Do you want to pick a new card?";
     }
     else if(sum===21){
-        message="Wohoo!You got a Black jack";
+        message="Wohoo!You got a Black jack\n Wanna play again?";
+        document.getElementById("newCard").disabled=true;
     }
     else{
         message="You are out of the game";
